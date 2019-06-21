@@ -2,10 +2,10 @@ package brokerService
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/body"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
-	"git.oschina.net/cloudzone/smartgo/stgweb/models"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/body"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgweb/models"
+	"github.com/ttstringiot/golangiot/stgweb/modules"
 	set "github.com/deckarep/golang-set"
 	"strconv"
 	"strings"

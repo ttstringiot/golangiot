@@ -2,7 +2,7 @@ package test
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgbroker"
+	"github.com/ttstringiot/golangiot/stgbroker"
 	"testing"
 )
 

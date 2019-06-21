@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog/mmap"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgstorelog/mmap"
 	"math"
 )
 

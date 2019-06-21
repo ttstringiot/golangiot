@@ -8,7 +8,7 @@ import (
 	"testing"
 	"path/filepath"
 	"os"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"sort"
 )
 

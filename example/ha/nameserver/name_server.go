@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/mqversion"
-	"git.oschina.net/cloudzone/smartgo/stgregistry/registry"
-	"git.oschina.net/cloudzone/smartgo/stgregistry/start/g"
+	"github.com/ttstringiot/golangiot/stgcommon/mqversion"
+	"github.com/ttstringiot/golangiot/stgregistry/registry"
+	"github.com/ttstringiot/golangiot/stgregistry/start/g"
 	"os"
 	"strings"
 )

@@ -1,8 +1,8 @@
 package body
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sync"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/sync"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // ConsumerOffsetSerializeWrapper Consumer消费进度，序列化包装

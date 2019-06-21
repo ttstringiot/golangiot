@@ -2,9 +2,9 @@ package stgcommon
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/statfs"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/statfs"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
 	"github.com/pquerna/ffjson/ffjson"
 	"hash/crc32"
 	"os"

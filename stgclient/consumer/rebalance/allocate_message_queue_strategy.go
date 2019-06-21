@@ -1,7 +1,7 @@
 package rebalance
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 )
 
 // AllocateMessageQueueStrategy 消费负载策略接口

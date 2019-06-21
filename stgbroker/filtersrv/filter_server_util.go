@@ -1,8 +1,8 @@
 package filtersrv
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
 	"os/exec"
 )
 

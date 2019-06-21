@@ -2,7 +2,7 @@ package store
 
 import (
 	set "github.com/deckarep/golang-set"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 )
 // OffsetStore: offset存储接口
 // Author: yintongqiang

@@ -1,7 +1,7 @@
 package body
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // RegisterBrokerBody 注册Broker-请求/响应体

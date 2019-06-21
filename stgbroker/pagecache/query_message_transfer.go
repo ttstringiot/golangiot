@@ -1,8 +1,8 @@
 package pagecache
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgstorelog"
 	"bytes"
 )
 

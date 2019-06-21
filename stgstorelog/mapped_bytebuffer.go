@@ -8,9 +8,9 @@ import "bytes"
 import (
 	"errors"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/byteutil"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog/mmap"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/byteutil"
+	"github.com/ttstringiot/golangiot/stgstorelog/mmap"
 )
 
 type MappedByteBuffer struct {

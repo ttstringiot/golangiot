@@ -2,7 +2,7 @@ package stgcommon
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/constant"
+	"github.com/ttstringiot/golangiot/stgcommon/constant"
 )
 
 const (

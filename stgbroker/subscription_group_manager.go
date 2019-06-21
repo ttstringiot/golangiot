@@ -2,9 +2,9 @@ package stgbroker
 
 import (
 	"encoding/json"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/subscription"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/subscription"
 	"github.com/pquerna/ffjson/ffjson"
 )
 

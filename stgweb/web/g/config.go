@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"git.oschina.net/cloudzone/cloudcommon-go/utils"
 	"git.oschina.net/cloudzone/cloudcommon-go/web"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon"
 	"github.com/toolkits/file"
 	"log"
 	"os"

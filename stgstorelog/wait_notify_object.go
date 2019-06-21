@@ -1,7 +1,7 @@
 package stgstorelog
 
 import (
-	stgsync "git.oschina.net/cloudzone/smartgo/stgcommon/sync"
+	stgsync "github.com/ttstringiot/golangiot/stgcommon/sync"
 	"sync"
 	"time"
 )

@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // KVConfigSerializeWrapper KV配置的json序列化结构

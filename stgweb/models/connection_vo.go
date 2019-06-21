@@ -2,8 +2,8 @@ package models
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/mqversion"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/body"
+	"github.com/ttstringiot/golangiot/stgcommon/mqversion"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/body"
 )
 
 // ConnectionOnline 在线进程列表

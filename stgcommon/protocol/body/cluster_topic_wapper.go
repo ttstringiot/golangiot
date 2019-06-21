@@ -1,6 +1,6 @@
 package body
 
-//import "git.oschina.net/cloudzone/smartgo/stgcommon"
+//import "github.com/ttstringiot/golangiot/stgcommon"
 //
 //// Cluster与Topic包装器
 //// Author: tianyuliang

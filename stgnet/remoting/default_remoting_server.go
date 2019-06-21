@@ -3,8 +3,8 @@ package remoting
 import (
 	"strconv"
 
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // DefalutRemotingServer default remoting server

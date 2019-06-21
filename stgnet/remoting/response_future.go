@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // ResponseFuture response future

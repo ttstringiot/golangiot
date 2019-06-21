@@ -1,8 +1,8 @@
 package admin
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // OffsetWrapper 消费者统计

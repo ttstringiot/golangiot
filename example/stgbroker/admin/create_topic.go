@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgbroker"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	code "git.oschina.net/cloudzone/smartgo/stgcommon/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header"
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgbroker"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	code "github.com/ttstringiot/golangiot/stgcommon/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 	"os"
 )
 

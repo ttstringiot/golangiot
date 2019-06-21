@@ -1,17 +1,17 @@
 package test
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgbroker"
-	"git.oschina.net/cloudzone/smartgo/stgbroker/test/common"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	code "git.oschina.net/cloudzone/smartgo/stgcommon/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/body"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header/filtersrv"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/subscription"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/timeutil"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgbroker"
+	"github.com/ttstringiot/golangiot/stgbroker/test/common"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	code "github.com/ttstringiot/golangiot/stgcommon/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/body"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header/filtersrv"
+	"github.com/ttstringiot/golangiot/stgcommon/subscription"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/timeutil"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 	"strconv"
 	"testing"
 )

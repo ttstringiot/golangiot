@@ -2,14 +2,15 @@ package main
 
 import (
 	"flag"
-	"git.oschina.net/cloudzone/smartgo/stgclient/process"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+
+	"github.com/ttstringiot/golangiot/stgclient/process"
+	"github.com/ttstringiot/golangiot/stgcommon"
 )
 
 var (
 	def_producerGroupId = "producerGroupId-200"
 	def_topic           = "cloudzone123"
-	def_namesrvAddr     = "10.112.68.189:9876"
+	def_namesrvAddr     = "127.0.0.1:9876"
 	def_threadNum       = 3600
 )
 

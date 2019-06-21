@@ -1,9 +1,9 @@
 package clusterService
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
-	"git.oschina.net/cloudzone/smartgo/stgweb/models"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgweb/models"
+	"github.com/ttstringiot/golangiot/stgweb/modules"
 	"sync"
 )
 

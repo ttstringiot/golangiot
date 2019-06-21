@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"github.com/go-errors/errors"
 )
 

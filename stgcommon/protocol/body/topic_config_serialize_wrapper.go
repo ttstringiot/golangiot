@@ -2,8 +2,8 @@ package body
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // TopicConfigSerializeWrapper topic

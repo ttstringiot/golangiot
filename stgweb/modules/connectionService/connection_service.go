@@ -1,13 +1,13 @@
 package connectionService
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	code "git.oschina.net/cloudzone/smartgo/stgcommon/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
-	"git.oschina.net/cloudzone/smartgo/stgweb/models"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules/groupGervice"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules/topicService"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	code "github.com/ttstringiot/golangiot/stgcommon/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgweb/models"
+	"github.com/ttstringiot/golangiot/stgweb/modules"
+	"github.com/ttstringiot/golangiot/stgweb/modules/groupGervice"
+	"github.com/ttstringiot/golangiot/stgweb/modules/topicService"
 	set "github.com/deckarep/golang-set"
 	"sort"
 	"strings"

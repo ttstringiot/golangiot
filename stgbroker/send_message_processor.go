@@ -2,19 +2,19 @@ package stgbroker
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgbroker/mqtrace"
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer/listener"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/constant"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	code "git.oschina.net/cloudzone/smartgo/stgcommon/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sysflag"
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog/config"
+	"github.com/ttstringiot/golangiot/stgbroker/mqtrace"
+	"github.com/ttstringiot/golangiot/stgclient/consumer/listener"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/constant"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	code "github.com/ttstringiot/golangiot/stgcommon/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header"
+	"github.com/ttstringiot/golangiot/stgcommon/sysflag"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgstorelog"
+	"github.com/ttstringiot/golangiot/stgstorelog/config"
 )
 
 // SendMessageProcessor 处理客户端发送消息的请求

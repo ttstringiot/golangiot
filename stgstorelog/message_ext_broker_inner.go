@@ -1,10 +1,10 @@
 package stgstorelog
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 	"strconv"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 )
 
 // MessageExtBrokerInner 存储内部使用的Message对象

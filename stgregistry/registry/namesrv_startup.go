@@ -2,11 +2,11 @@ package registry
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/namesrv"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/static"
-	"git.oschina.net/cloudzone/smartgo/stgnet/remoting"
-	"git.oschina.net/cloudzone/smartgo/stgregistry/logger"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/namesrv"
+	"github.com/ttstringiot/golangiot/stgcommon/static"
+	"github.com/ttstringiot/golangiot/stgnet/remoting"
+	"github.com/ttstringiot/golangiot/stgregistry/logger"
 	"os"
 	"strconv"
 )

@@ -2,4 +2,4 @@
 
 `smartgocommon` is ...
 
-Read the [docs](http://git.oschina.net/cloudzone/smartgo)
+Read the [docs](http://github.com/ttstringiot/golangiot)

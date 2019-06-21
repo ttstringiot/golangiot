@@ -2,9 +2,9 @@ package body
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/route"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/route"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 	set "github.com/deckarep/golang-set"
 )
 

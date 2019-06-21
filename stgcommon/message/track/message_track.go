@@ -2,7 +2,7 @@ package track
 
 import (
 	"fmt"
-	code "git.oschina.net/cloudzone/smartgo/stgcommon/protocol"
+	code "github.com/ttstringiot/golangiot/stgcommon/protocol"
 )
 
 type TrackTypes int

@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 	"github.com/go-errors/errors"
 )
 

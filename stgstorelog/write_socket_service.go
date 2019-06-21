@@ -5,9 +5,9 @@ import (
 	"net"
 	"sync"
 	"time"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"encoding/binary"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog/config"
+	"github.com/ttstringiot/golangiot/stgstorelog/config"
 )
 
 // WriteSocketService

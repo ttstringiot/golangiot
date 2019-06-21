@@ -2,8 +2,8 @@ package routeinfo
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
 )
 
 // BrokerLiveInfo 活动broker存储结构

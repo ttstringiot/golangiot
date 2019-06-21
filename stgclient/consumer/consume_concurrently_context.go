@@ -1,7 +1,7 @@
 package consumer
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 	"math"
 )
 

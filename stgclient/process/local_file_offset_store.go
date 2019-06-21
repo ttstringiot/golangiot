@@ -1,10 +1,10 @@
 package process
 
 import (
-	baseStore "git.oschina.net/cloudzone/smartgo/stgclient/consumer/store"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	baseStore "github.com/ttstringiot/golangiot/stgclient/consumer/store"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 	set "github.com/deckarep/golang-set"
 	"github.com/pquerna/ffjson/ffjson"
 	"io/ioutil"

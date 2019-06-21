@@ -1,7 +1,7 @@
 package body
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 )
 
 // ResetOffsetBody 重置偏移量的body

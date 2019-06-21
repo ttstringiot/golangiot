@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"testing"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"github.com/toolkits/file"
 )
 

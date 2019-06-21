@@ -3,7 +3,7 @@ package stgstorelog
 import (
 	"time"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"math"
 	"hash/fnv"
 )

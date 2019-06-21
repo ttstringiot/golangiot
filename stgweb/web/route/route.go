@@ -2,13 +2,13 @@ package route
 
 import (
 	"git.oschina.net/cloudzone/cloudcommon-go/web"
-	"git.oschina.net/cloudzone/smartgo/stgweb/web/controller/broker"
-	"git.oschina.net/cloudzone/smartgo/stgweb/web/controller/cluster"
-	"git.oschina.net/cloudzone/smartgo/stgweb/web/controller/connection"
-	"git.oschina.net/cloudzone/smartgo/stgweb/web/controller/general"
-	"git.oschina.net/cloudzone/smartgo/stgweb/web/controller/group"
-	"git.oschina.net/cloudzone/smartgo/stgweb/web/controller/message"
-	"git.oschina.net/cloudzone/smartgo/stgweb/web/controller/topic"
+	"github.com/ttstringiot/golangiot/stgweb/web/controller/broker"
+	"github.com/ttstringiot/golangiot/stgweb/web/controller/cluster"
+	"github.com/ttstringiot/golangiot/stgweb/web/controller/connection"
+	"github.com/ttstringiot/golangiot/stgweb/web/controller/general"
+	"github.com/ttstringiot/golangiot/stgweb/web/controller/group"
+	"github.com/ttstringiot/golangiot/stgweb/web/controller/message"
+	"github.com/ttstringiot/golangiot/stgweb/web/controller/topic"
 	"github.com/kataras/iris/context"
 )
 

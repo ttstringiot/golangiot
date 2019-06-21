@@ -31,4 +31,4 @@ stgnet是smartgo中对网络层通讯的封装，包括协议封装、解包，�
 3. 优化协议封装、解包。
 4. 短连接支持。
 
-Read the [docs](http://git.oschina.net/cloudzone/smartgo)
+Read the [docs](http://github.com/ttstringiot/golangiot)

@@ -4,9 +4,9 @@ package process
 // Since:  2017/8/8
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 	"strings"
-	"git.oschina.net/cloudzone/smartgo/stgclient"
+	"github.com/ttstringiot/golangiot/stgclient"
 	"strconv"
 )
 

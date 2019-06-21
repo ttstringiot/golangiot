@@ -2,7 +2,7 @@ package namesrv
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/body"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/body"
 	"strings"
 )
 

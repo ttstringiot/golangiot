@@ -7,8 +7,8 @@ import (
 	"os"
 	"strconv"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/mqversion"
-	protocolCode "git.oschina.net/cloudzone/smartgo/stgcommon/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/mqversion"
+	protocolCode "github.com/ttstringiot/golangiot/stgcommon/protocol"
 	"github.com/go-errors/errors"
 	"github.com/pquerna/ffjson/ffjson"
 )

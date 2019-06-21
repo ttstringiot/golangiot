@@ -1,13 +1,13 @@
 package admin
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/admin"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message/track"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/body"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/route"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/subscription"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/admin"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/message/track"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/body"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/route"
+	"github.com/ttstringiot/golangiot/stgcommon/subscription"
 	set "github.com/deckarep/golang-set"
 )
 

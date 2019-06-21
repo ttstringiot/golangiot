@@ -4,7 +4,7 @@ import (
 	"net"
 	"bytes"
 	"time"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"encoding/binary"
 	"sync/atomic"
 	"sync"

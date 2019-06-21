@@ -1,12 +1,12 @@
 package process
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgclient"
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer"
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer/rebalance"
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer/store"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/heartbeat"
+	"github.com/ttstringiot/golangiot/stgclient"
+	"github.com/ttstringiot/golangiot/stgclient/consumer"
+	"github.com/ttstringiot/golangiot/stgclient/consumer/rebalance"
+	"github.com/ttstringiot/golangiot/stgclient/consumer/store"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/heartbeat"
 	set "github.com/deckarep/golang-set"
 )
 

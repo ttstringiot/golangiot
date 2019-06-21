@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sync/list"
+	"github.com/ttstringiot/golangiot/stgcommon/sync/list"
 )
 
 func main() {

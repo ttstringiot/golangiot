@@ -23,8 +23,8 @@ SmartGo是能够支持主流消息队列功能及满足物联网MQTT数千万长
 ----------
 
 ### 如何开始？
-* [下载最新版代码](https://git.oschina.net/cloudzone/smartgo)
-* [`使用指南及相关文档`](https://git.oschina.net/cloudzone/smartgo)都已经归档到当前项目docs/目录下
+* [下载最新版代码](https://github.com/ttstringiot/golangiot)
+* [`使用指南及相关文档`](https://github.com/ttstringiot/golangiot)都已经归档到当前项目docs/目录下
 
 
 ----------
@@ -1432,7 +1432,7 @@ govendor add +external # 添加所有外部包到vendor目录
 ----------
 
 ### 联系我们
- :fa-comments-o: smartgo开发组 https://git.oschina.net/cloudzone/smartgo
+ :fa-comments-o: smartgo开发组 https://github.com/ttstringiot/golangiot
 
 ----------
 

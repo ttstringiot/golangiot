@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
 )
 
 type ClientContextListener struct {

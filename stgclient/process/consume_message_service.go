@@ -1,9 +1,9 @@
 package process
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/body"
+	"github.com/ttstringiot/golangiot/stgclient/consumer"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/body"
 )
 
 // ConsumeMessageService: 消费消息服务接口

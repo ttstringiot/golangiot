@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog/config"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sysflag"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgstorelog/config"
+	"github.com/ttstringiot/golangiot/stgcommon/sysflag"
 	"strings"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 )
 
 type Files []os.FileInfo

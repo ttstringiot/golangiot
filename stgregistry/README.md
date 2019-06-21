@@ -1,7 +1,7 @@
 ## smartgo registry
 
 
-Read the [docs](http://git.oschina.net/cloudzone/smartgo)
+Read the [docs](http://github.com/ttstringiot/golangiot)
 
 ### 环境变量
 ```bash
@@ -13,7 +13,7 @@ export SMARTGO_REGISTRY_CONFIG="/home/smartgo/registry/cfg.json" # registry日�
 - `registry`启动后，优先读取`$SMARTGO_REGISTRY_CONFIG`日志配置文件，如果读取异常则尝试读取`cfg.json`默认路径
 - 如果`cfg.json`默认文件还是读取异常，则会将日志输出到控制台，日志级别默认为`Info`
 ```bash
-$GOPATH/src/git.oschina.net/cloudzone/smartgo/stgregistry/start/g/cfg.json   # 日志默认路径
+$GOPATH/src/github.com/ttstringiot/golangiot/stgregistry/start/g/cfg.json   # 日志默认路径
 ```
 
 ### 日志文件`cfg.json`示例
@@ -49,7 +49,7 @@ $GOPATH/src/git.oschina.net/cloudzone/smartgo/stgregistry/start/g/cfg.json   # �
 
 ### 编译`registry`
 ```bash
-cd $GOPATH/src/git.oschina.net/cloudzone/smartgo/stgregistry/start
+cd $GOPATH/src/github.com/ttstringiot/golangiot/stgregistry/start
 go get ./...
 go build 
 mv start registry

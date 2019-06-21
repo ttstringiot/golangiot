@@ -1,11 +1,11 @@
 package main
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 	"strconv"
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgclient/process"
+	"github.com/ttstringiot/golangiot/stgclient/process"
 	"os/signal"
 	"syscall"
 	"os"

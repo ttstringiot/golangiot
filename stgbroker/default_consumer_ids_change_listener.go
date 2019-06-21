@@ -1,7 +1,7 @@
 package stgbroker
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
 )
 
 // DefaultConsumerIdsChangeListener ConsumerId列表变化，通知所有Consumer

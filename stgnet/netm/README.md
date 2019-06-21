@@ -58,4 +58,4 @@ sysctl -w net.ipv4.route.flush=1
 2. 高并发情况下的缓冲处理能力。
 3. 长连接是否有方案使用复用线程的可能性。
 
-Read the [docs](http://git.oschina.net/cloudzone/smartgo)
+Read the [docs](http://github.com/ttstringiot/golangiot)

@@ -3,7 +3,7 @@ package stgclient
 // MQAdmin MQ管理
 //
 // 注意:
-// (1)MQAdmin接口不能引入"git.oschina.net/cloudzone/smartgo/stgcommon/message"包，否则产生循环引用
+// (1)MQAdmin接口不能引入"github.com/ttstringiot/golangiot/stgcommon/message"包，否则产生循环引用
 // (2)把属于MQAdmin接口的部分方法移入MQAdminExtInner接口，用来解决包循环引用的问题
 // (3)移动的方法包括 searchOffset()、maxOffset()、minOffset()、earliestMsgStoreTime()、viewMessage()、queryMessage()
 //

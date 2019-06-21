@@ -3,7 +3,7 @@ package stgcommon
 import (
 	"time"
 	"sync/atomic"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 )
 
 type SystemClock struct {

@@ -4,7 +4,7 @@ package process
 // Author: yintongqiang
 // Since:  2017/8/8
 
-import "git.oschina.net/cloudzone/smartgo/stgcommon/message"
+import "github.com/ttstringiot/golangiot/stgcommon/message"
 
 type MQProducer interface {
 	// 启动

@@ -2,14 +2,14 @@ package stgbroker
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/static"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/parseutil"
-	"git.oschina.net/cloudzone/smartgo/stgnet/remoting"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog/config"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/static"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/parseutil"
+	"github.com/ttstringiot/golangiot/stgnet/remoting"
+	"github.com/ttstringiot/golangiot/stgstorelog"
+	"github.com/ttstringiot/golangiot/stgstorelog/config"
 	"github.com/toolkits/file"
 	"os"
 	"path/filepath"
@@ -149,7 +149,7 @@ func getSmartgoBrokerConfigName(smartgoBrokerFilePath ...string) string {
 // (1)$SMARTGO_HOME/conf/broker-a.toml
 // (2)./conf/broker-a.toml
 // (3)../../conf/broker-a.toml
-// (4)$GOPATH/src/git.oschina.net/cloudzone/smartgo/conf/broker-a.toml
+// (4)$GOPATH/src/github.com/ttstringiot/golangiot/conf/broker-a.toml
 //
 // Author: tianyuliang
 // Since: 2017/10/16

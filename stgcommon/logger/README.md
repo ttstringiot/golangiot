@@ -38,7 +38,7 @@ func ConfigAsFile(filename string) error
 ```go
 package main
 
-import "git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+import "github.com/ttstringiot/golangiot/stgcommon/logger"
 
 func main() {
 	console()
@@ -64,7 +64,7 @@ func console() {
 ```go
 package main
 
-import "git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+import "github.com/ttstringiot/golangiot/stgcommon/logger"
 
 func main() {
 	file()

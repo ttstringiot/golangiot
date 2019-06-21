@@ -1,8 +1,8 @@
 package main
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgclient/process"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+	"github.com/ttstringiot/golangiot/stgclient/process"
+	"github.com/ttstringiot/golangiot/stgcommon"
 	"time"
 )
 

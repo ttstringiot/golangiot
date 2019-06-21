@@ -2,7 +2,7 @@ package body
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 	set "github.com/deckarep/golang-set"
 	"strings"
 )

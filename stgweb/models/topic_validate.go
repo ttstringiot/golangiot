@@ -2,8 +2,8 @@ package models
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
 	"github.com/gunsluo/govalidator"
 )
 

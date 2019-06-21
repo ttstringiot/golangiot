@@ -1,12 +1,12 @@
 package process
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer/store"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sync"
+	"github.com/ttstringiot/golangiot/stgclient/consumer/store"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header"
+	"github.com/ttstringiot/golangiot/stgcommon/sync"
 	set "github.com/deckarep/golang-set"
 	"strings"
 	"sync/atomic"

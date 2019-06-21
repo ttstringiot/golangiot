@@ -2,9 +2,9 @@ package stats
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/stats"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/stats"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
 	"sync/atomic"
 )
 

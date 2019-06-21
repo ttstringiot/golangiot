@@ -7,9 +7,9 @@ package stgstorelog
 import (
 	"testing"
 	"os"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"strconv"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/fileutil"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/fileutil"
 )
 
 func TestOpenMapedFile(t *testing.T) {

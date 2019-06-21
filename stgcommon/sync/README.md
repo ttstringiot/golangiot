@@ -12,7 +12,7 @@ package main
 import (
 	"fmt"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sync"
+	"github.com/ttstringiot/golangiot/stgcommon/sync"
 )
 
 func main() {

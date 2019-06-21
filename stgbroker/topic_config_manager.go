@@ -3,11 +3,11 @@ package stgbroker
 import (
 	"encoding/json"
 	"errors"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/constant"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/body"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/constant"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/body"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
 	set "github.com/deckarep/golang-set"
 	"sync"
 )

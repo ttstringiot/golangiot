@@ -1,8 +1,9 @@
 package utils
 
 import (
-	"github.com/satori/go.uuid"
 	"strings"
+
+	uuid "github.com/satori/go.uuid"
 )
 
 // UUID return uuid string
@@ -10,7 +11,7 @@ import (
 // Since: 2017-03-24
 func UUID() string {
 	// UUID layout variants.
-	u1 := uuid.NewV4()
+	u1, _ := uuid.NewV4()
 	return u1.String()
 }
 

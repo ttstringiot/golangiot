@@ -19,7 +19,7 @@ package route
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon"
 	"github.com/pquerna/ffjson/ffjson"
 	"strings"
 	"sync"

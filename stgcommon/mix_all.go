@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"compress/gzip"
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/fileutil"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/fileutil"
 	"io/ioutil"
 	"net"
 	"os"
@@ -51,7 +51,7 @@ const (
 	RETRY_GROUP_TOPIC_PREFIX        = "%RETRY%" // 为每个ConsumerGroup建立一个默认的Topic，前缀+GroupName，用来保存处理失败需要重试的消息
 	DLQ_GROUP_TOPIC_PREFIX          = "%DLQ%"   // 为每个ConsumerGroup建立一个默认的Topic，前缀+GroupName，用来保存重试多次都失败，接下来不再重试的消息
 	BROKER_REBLANCE_LOCKMAXLIVETIME = "smartgo.broker.rebalance.lockMaxLiveTime"
-	SMARTGO_CONF_DIR                = "/git.oschina.net/cloudzone/smartgo/conf/"
+	SMARTGO_CONF_DIR                = "/github.com/ttstringiot/golangiot/conf/"
 	MSG_BODY_DIR                    = "/tmp/blotmq/msgbodys/" // 消息body内容存储在stgweb站点所在服务器路径
 )
 

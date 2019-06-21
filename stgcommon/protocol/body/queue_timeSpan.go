@@ -1,8 +1,8 @@
 package body
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 )
 
 // QueueTimeSpan 查询时间宽度

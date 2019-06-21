@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	code "git.oschina.net/cloudzone/smartgo/stgcommon/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header/namesrv"
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgnet/remoting"
+	code "github.com/ttstringiot/golangiot/stgcommon/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header/namesrv"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgnet/remoting"
 )
 
 var (

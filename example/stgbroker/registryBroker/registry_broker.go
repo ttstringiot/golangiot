@@ -1,10 +1,10 @@
 package main
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgbroker"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header/namesrv"
-	"git.oschina.net/cloudzone/smartgo/stgregistry/logger"
+	"github.com/ttstringiot/golangiot/stgbroker"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header/namesrv"
+	"github.com/ttstringiot/golangiot/stgregistry/logger"
 	"os"
 )
 

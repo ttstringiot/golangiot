@@ -1,12 +1,12 @@
 package stgbroker
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgbroker/rebalance"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/body"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/timeutil"
+	"github.com/ttstringiot/golangiot/stgbroker/rebalance"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/body"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/timeutil"
 	set "github.com/deckarep/golang-set"
 	"strings"
 	"sync"

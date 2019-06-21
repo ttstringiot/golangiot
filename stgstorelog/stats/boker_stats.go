@@ -1,8 +1,8 @@
 package stats
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgstorelog"
 )
 
 // BrokerStats broker统计的数据（昨天和今天的Get、Put数据量）

@@ -2,9 +2,9 @@ package stgcommon
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgclient"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/constant"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgclient"
+	"github.com/ttstringiot/golangiot/stgcommon/constant"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"os"
 	"runtime"
 	"strings"

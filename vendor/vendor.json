@@ -555,6 +555,144 @@
 			"revisionTime": "2016-03-25T03:37:39Z"
 		},
 		{
+			"checksumSHA1": "/HU0HFKopmKZ542Kj3jKAmmt1Qo=",
+			"path": "github.com/ttstringiot/golangiot/stgbroker/longpolling",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "gV+5CbsL82NXJ36naZpVjUPmsbg=",
+			"path": "github.com/ttstringiot/golangiot/stgbroker/pagecache",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "I7nuNQrUNCENeLvIEXmFO1FHR+U=",
+			"path": "github.com/ttstringiot/golangiot/stgbroker/rebalance",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "GESghOvnixkuufvOnmmaytvkjr8=",
+			"path": "github.com/ttstringiot/golangiot/stgclient/admin",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "c00/EbEvNhaQXn+XINfM36yFYKE=",
+			"path": "github.com/ttstringiot/golangiot/stgclient/consumer/rebalance",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "ae1k7O8Xvu6d3fPp13hCwPXDb+4=",
+			"path": "github.com/ttstringiot/golangiot/stgclient/consumer/store",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "9CpH/vln7wAIBKp0VTGrraSQJT4=",
+			"path": "github.com/ttstringiot/golangiot/stgcommon/protocol/header/namesrv/routeinfo",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "OzY1XMXe+LtowWpOIzDZG610/QA=",
+			"path": "github.com/ttstringiot/golangiot/stgcommon/statfs",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "9s5JTW3GfvTfJ7G3rmoJ/VdCQsI=",
+			"path": "github.com/ttstringiot/golangiot/stgcommon/utils/byteutil",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "tlO/ktOBSG0R6KJ//hPC5b8ds+M=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/models",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "5acdgWPky9fVe9rHmQMqBw72jAY=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/modules",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "vuXBwhdHflQM8rfSSrYZbfq9GvM=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/modules/brokerService",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "WBbQ3fmQ+P+FhWp72GVqM9+2sd0=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/modules/clusterService",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "Sv+/iJCebMyZhJzW++JNU5KVdP0=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/modules/connectionService",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "H8ON5IlYOPbsw6mOqXukQlfp7HI=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/modules/generalService",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "gF7OdfEDg68gEAWzCwAJTnd2EgY=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/modules/messageService",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "eIao2Fc3OZFSvOy8aEFwtNbxjSc=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/web/controller/broker",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "uBRWmPRcBxIDMR16WJoOFU+s2TI=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/web/controller/cluster",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "IvFJkuzeB1+a3HTIpKtf96puLDY=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/web/controller/connection",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "H+R+AG7xayIQPSmL8xh0bbvSNNY=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/web/controller/general",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "D9tR7EXlek3tDFZl1MtRfvVTrDM=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/web/controller/group",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "bMS/nASn8T8MJ09OVGifih7U2I0=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/web/controller/message",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
+			"checksumSHA1": "0Fl0uuL1YPGykTguQCpd8XMyjIY=",
+			"path": "github.com/ttstringiot/golangiot/stgweb/web/controller/topic",
+			"revision": "b35653f57be0f77f05af42ccab1664a5f17ece55",
+			"revisionTime": "2019-06-21T03:33:34Z"
+		},
+		{
 			"checksumSHA1": "0FCBLTqGOxgifAKfS0360iLTZR4=",
 			"path": "github.com/ugorji/go/codec",
 			"revision": "8c0409fcbb70099c748d71f714529204975f6c3f",
@@ -625,5 +763,5 @@
 			"revisionTime": "2017-08-02T21:43:43Z"
 		}
 	],
-	"rootPath": "git.oschina.net/cloudzone/smartgo"
+	"rootPath": "/github.com/ttstringiot/golangiot"
 }

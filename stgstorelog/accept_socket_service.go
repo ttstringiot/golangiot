@@ -3,7 +3,7 @@ package stgstorelog
 import (
 	"net"
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 )
 
 // AcceptSocketService

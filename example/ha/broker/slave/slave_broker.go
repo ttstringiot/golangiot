@@ -1,10 +1,10 @@
 package main
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgbroker"
-	"git.oschina.net/cloudzone/smartgo/stgnet/remoting"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/static"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog/config"
+	"github.com/ttstringiot/golangiot/stgbroker"
+	"github.com/ttstringiot/golangiot/stgnet/remoting"
+	"github.com/ttstringiot/golangiot/stgcommon/static"
+	"github.com/ttstringiot/golangiot/stgstorelog/config"
 	"os"
 	"os/signal"
 	"syscall"

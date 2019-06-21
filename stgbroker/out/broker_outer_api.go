@@ -2,14 +2,14 @@ package out
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/namesrv"
-	code "git.oschina.net/cloudzone/smartgo/stgcommon/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/body"
-	headerNamesrv "git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header/namesrv"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgnet/remoting"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/namesrv"
+	code "github.com/ttstringiot/golangiot/stgcommon/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/body"
+	headerNamesrv "github.com/ttstringiot/golangiot/stgcommon/protocol/header/namesrv"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgnet/remoting"
 	"strings"
 )
 

@@ -6,8 +6,8 @@ import (
 	"os"
 	"runtime/debug"
 
-	"git.oschina.net/cloudzone/smartgo/stgbroker"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/mqversion"
+	"github.com/ttstringiot/golangiot/stgbroker"
+	"github.com/ttstringiot/golangiot/stgcommon/mqversion"
 	"github.com/toolkits/file"
 )
 

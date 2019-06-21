@@ -1,6 +1,6 @@
 package body
 
-import "git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+import "github.com/ttstringiot/golangiot/stgnet/protocol"
 
 // BrokerStatsData Broker统计数据
 // Author rongzhihong

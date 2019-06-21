@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/timeutil"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/timeutil"
 	"time"
 )
 

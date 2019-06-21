@@ -1,8 +1,8 @@
 package subscription
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	syncmap "git.oschina.net/cloudzone/smartgo/stgcommon/sync"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	syncmap "github.com/ttstringiot/golangiot/stgcommon/sync"
 	"sync"
 )
 

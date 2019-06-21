@@ -1,9 +1,9 @@
 package process
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgclient"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgclient"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 )
 
 // 默认发送

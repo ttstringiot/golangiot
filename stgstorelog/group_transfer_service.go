@@ -2,8 +2,8 @@ package stgstorelog
 
 import (
 	"sync/atomic"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sync"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/sync"
 	"time"
 )
 

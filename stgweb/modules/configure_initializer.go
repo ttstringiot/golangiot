@@ -1,7 +1,7 @@
 package modules
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon"
 	"os"
 )
 

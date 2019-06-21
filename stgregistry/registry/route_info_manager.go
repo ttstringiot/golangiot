@@ -1,20 +1,21 @@
 package registry
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/constant"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/namesrv"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/body"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header/namesrv/routeinfo"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/route"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sysflag"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/remotingUtil"
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
-	"git.oschina.net/cloudzone/smartgo/stgregistry/logger"
-	set "github.com/deckarep/golang-set"
 	"strings"
 	"sync"
+
+	set "github.com/deckarep/golang-set"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/constant"
+	"github.com/ttstringiot/golangiot/stgcommon/namesrv"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/body"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header/namesrv/routeinfo"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/route"
+	"github.com/ttstringiot/golangiot/stgcommon/sysflag"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/remotingUtil"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgregistry/logger"
 )
 
 const (

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgclient/process"
+	"github.com/ttstringiot/golangiot/stgclient/process"
 	"time"
 	"os/signal"
 	"syscall"

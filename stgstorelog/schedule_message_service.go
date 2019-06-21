@@ -3,9 +3,9 @@ package stgstorelog
 import (
 	"time"
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon"
 	"encoding/json"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 )
 
 const (

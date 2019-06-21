@@ -1,25 +1,25 @@
 ## stgclient
 
-Read the [docs](http://git.oschina.net/cloudzone/smartgo)
+Read the [docs](http://github.com/ttstringiot/golangiot)
 
 ### 创建topic
-* 1、```import "git.oschina.net/cloudzone/smartgo/stgclient/process"```
+* 1、```import "github.com/ttstringiot/golangiot/stgclient/process"```
 * 2、创建发送实例```process.NewDefaultMQProducer("producerGroupId")```
 * 3、设置stgregistry地址```SetNamesrvAddr(namesrvAddr)```
 * 4、建立链接调用```Start()```方法
 * 5、调用创建topic的方法```CreateTopic(stgcommon.DEFAULT_TOPIC, "topicName", 8)```
-    * ```stgcommon.DEFAULT_TOPIC``` 为密钥需先```import "git.oschina.net/cloudzone/smartgo/stgcommon"```
+    * ```stgcommon.DEFAULT_TOPIC``` 为密钥需先```import "github.com/ttstringiot/golangiot/stgcommon"```
     * ```topicName``` 为创建topic的名称
     * ```8```为读写的队列数
     
 ### 发送同步消息
 * #### 请求
-* 1、``` import "git.oschina.net/cloudzone/smartgo/stgclient/process" ```
+* 1、``` import "github.com/ttstringiot/golangiot/stgclient/process" ```
 * 2、创建发送实例```process.NewDefaultMQProducer("producerGroupId")```
 * 3、设置stgregistry地址```SetNamesrvAddr(namesrvAddr)```
 * 4、建立链接调用```Start()```方法
 * 5、调用实例的Send方法```Send(message.NewMessage("topicName", "tagName", []byte("msgbody")))```
-    * 先```import "git.oschina.net/cloudzone/smartgo/stgcommon/message"``` 
+    * 先```import "github.com/ttstringiot/golangiot/stgcommon/message"``` 
     * 创建Message的参数topicName 为创建topic的名称,tagName为标签名称,msgBody为消息内容。
     
 * #### 响应    
@@ -32,13 +32,13 @@ Read the [docs](http://git.oschina.net/cloudzone/smartgo)
      
 ### 发送异步消息
 * #### 请求
-* 1、``` import "git.oschina.net/cloudzone/smartgo/stgclient/process" ```
+* 1、``` import "github.com/ttstringiot/golangiot/stgclient/process" ```
 * 2、创建发送实例```process.NewDefaultMQProducer("producerGroupId")```
 * 3、设置stgregistry地址```SetNamesrvAddr(namesrvAddr)```
 * 4、建立链接调用```Start()```方法
 * 5、调用实例的SendCallBack方法```SendCallBack(message.NewMessage("topicName", "tagName", []byte("msgbody")),
     func(sendResult *process.SendResult, err error) {})```                                                                                             		
-    * 先```import "git.oschina.net/cloudzone/smartgo/stgcommon/message"``` 
+    * 先```import "github.com/ttstringiot/golangiot/stgcommon/message"``` 
     * 创建Message的参数topicName 为创建topic的名称,tagName为标签名称,msgBody为消息内容。
     
 * #### 响应    
@@ -52,12 +52,12 @@ Read the [docs](http://git.oschina.net/cloudzone/smartgo)
      
 ### 发送OneWay消息
 * #### 请求
-* 1、``` import "git.oschina.net/cloudzone/smartgo/stgclient/process" ```
+* 1、``` import "github.com/ttstringiot/golangiot/stgclient/process" ```
 * 2、创建发送实例```process.NewDefaultMQProducer("producerGroupId")```
 * 3、设置stgregistry地址```SetNamesrvAddr(namesrvAddr)```
 * 4、建立链接调用```Start()```方法
 * 5、调用实例的SendOneWay方法```SendOneWay(message.NewMessage("topicName", "tagName", []byte("msgbody")))```
-    * 先```import "git.oschina.net/cloudzone/smartgo/stgcommon/message"``` 
+    * 先```import "github.com/ttstringiot/golangiot/stgcommon/message"``` 
     * 创建Message的参数topicName 为创建topic的名称,tagName为标签名称,msgBody为消息内容。
     
 * #### 响应    
@@ -66,10 +66,10 @@ Read the [docs](http://git.oschina.net/cloudzone/smartgo)
   
 ### Push消费
 
-* 1、``` import "git.oschina.net/cloudzone/smartgo/stgclient/process" ```
+* 1、``` import "github.com/ttstringiot/golangiot/stgclient/process" ```
 * 2、创建消费实例```process.NewDefaultMQPushConsumer("consumerGroupId")```
 * 3、设置实例消费位置```SetConsumeFromWhere(heartbeat.CONSUME_FROM_LAST_OFFSET)```
-     * 先 ```import "git.oschina.net/cloudzone/smartgo/stgcommon/protocol/heartbeat"```
+     * 先 ```import "github.com/ttstringiot/golangiot/stgcommon/protocol/heartbeat"```
      * ```CONSUME_FROM_LAST_OFFSET```  一个新的订阅组第一次启动从队列的最后位置开始消费,后续再启动接着上次消费的进度开始消费。
      * ```CONSUME_FROM_FIRST_OFFSET``` 一个新的订阅组第一次启动从队列的最前位置开始消费,后续再启动接着上次消费的进度开始消费。
      * ```CONSUME_FROM_TIMESTAMP```  一个新的订阅组第一次启动从指定时间点开始消费,后续再启动接着上次消费的进度开始消费,时间点设置参见```DefaultMQPushConsumer.ConsumeTimestamp```参数。
@@ -86,7 +86,7 @@ Read the [docs](http://git.oschina.net/cloudzone/smartgo)
 
 ### Pull消费
 
-* 1、``` import "git.oschina.net/cloudzone/smartgo/stgclient/process" ```
+* 1、``` import "github.com/ttstringiot/golangiot/stgclient/process" ```
 * 2、创建消费实例```process.NewDefaultMQPullConsumer("consumerGroupId")```
 * 3、设置stgregistry地址```SetNamesrvAddr(namesrvAddr)```
 * 4、建立链接调用```Start()```方法 

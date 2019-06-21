@@ -2,7 +2,7 @@ package client
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
 	"time"
 )
 

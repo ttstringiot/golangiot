@@ -1,6 +1,6 @@
 package consumer
 
-import "git.oschina.net/cloudzone/smartgo/stgcommon/message"
+import "github.com/ttstringiot/golangiot/stgcommon/message"
 
 type PullResult struct {
 	PullStatus      PullStatus

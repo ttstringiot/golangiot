@@ -1,7 +1,7 @@
 package rebalance
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
 )
 
 type ConsumerIdsChangeListener interface {

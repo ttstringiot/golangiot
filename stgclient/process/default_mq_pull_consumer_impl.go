@@ -1,17 +1,17 @@
 package process
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer/store"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgclient/consumer/store"
 	set "github.com/deckarep/golang-set"
 	"time"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/filter"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/heartbeat"
+	"github.com/ttstringiot/golangiot/stgcommon/filter"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/heartbeat"
 	"errors"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sysflag"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgclient/consumer"
+	"github.com/ttstringiot/golangiot/stgcommon/sysflag"
 	"strings"
 )
 // DefaultMQPullConsumerImpl: 拉取下线实现

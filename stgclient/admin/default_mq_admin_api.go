@@ -2,13 +2,13 @@ package admin
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgclient"
-	"git.oschina.net/cloudzone/smartgo/stgclient/process"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/help"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/timeutil"
-	"git.oschina.net/cloudzone/smartgo/stgnet/remoting"
+	"github.com/ttstringiot/golangiot/stgclient"
+	"github.com/ttstringiot/golangiot/stgclient/process"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/help"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/timeutil"
+	"github.com/ttstringiot/golangiot/stgnet/remoting"
 	"strconv"
 	"strings"
 )

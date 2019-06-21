@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
 )
 
 type DemoContextListener struct {

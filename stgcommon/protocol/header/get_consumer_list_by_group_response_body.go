@@ -1,7 +1,7 @@
 package header
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // GetConsumerListByGroupResponseBody: 获取消费者列表

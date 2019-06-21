@@ -1,8 +1,8 @@
 package topicService
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
-	"git.oschina.net/cloudzone/smartgo/stgweb/models"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgweb/models"
 	"sort"
 	"strings"
 )

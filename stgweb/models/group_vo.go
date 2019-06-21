@@ -1,9 +1,9 @@
 package models
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/admin"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/admin"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 	"strconv"
 )
 

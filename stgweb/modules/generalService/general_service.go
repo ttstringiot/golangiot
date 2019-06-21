@@ -2,12 +2,12 @@ package generalService
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
-	"git.oschina.net/cloudzone/smartgo/stgweb/models"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules/brokerService"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules/connectionService"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgweb/models"
+	"github.com/ttstringiot/golangiot/stgweb/modules"
+	"github.com/ttstringiot/golangiot/stgweb/modules/brokerService"
+	"github.com/ttstringiot/golangiot/stgweb/modules/connectionService"
 	set "github.com/deckarep/golang-set"
 	"strings"
 	"sync"

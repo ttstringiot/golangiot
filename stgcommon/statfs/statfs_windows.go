@@ -1,7 +1,7 @@
 package statfs
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"syscall"
 	"unsafe"
 )

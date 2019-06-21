@@ -1,6 +1,6 @@
 package consumer
 
-import "git.oschina.net/cloudzone/smartgo/stgcommon/message"
+import "github.com/ttstringiot/golangiot/stgcommon/message"
 // PullRequest: 拉消息request
 // Author: yintongqiang
 // Since:  2017/8/10

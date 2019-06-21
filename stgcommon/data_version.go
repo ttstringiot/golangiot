@@ -2,7 +2,7 @@ package stgcommon
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"github.com/pquerna/ffjson/ffjson"
 	"sync/atomic"
 	"time"

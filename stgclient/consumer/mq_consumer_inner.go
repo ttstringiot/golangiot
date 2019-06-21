@@ -4,7 +4,7 @@ package consumer
 // Since:  2017/8/9
 import (
 	set "github.com/deckarep/golang-set"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/heartbeat"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/heartbeat"
 )
 
 type MQConsumerInner interface {

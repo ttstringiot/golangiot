@@ -2,7 +2,7 @@ package subscription
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon"
 )
 
 // SubscriptionGroupConfig 订阅关系配置

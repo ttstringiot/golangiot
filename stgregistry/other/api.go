@@ -1,7 +1,7 @@
 package other
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/parseutil"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/parseutil"
 	"github.com/coreos/etcd/client"
 	"log"
 	"strconv"

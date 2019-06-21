@@ -3,7 +3,7 @@ package store
 import (
 	"testing"
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 	"github.com/pquerna/ffjson/ffjson"
 	"strconv"
 )

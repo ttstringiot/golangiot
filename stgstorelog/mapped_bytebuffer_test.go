@@ -6,9 +6,9 @@ package stgstorelog
 
 import (
 	"testing"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"bytes"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/byteutil"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/byteutil"
 )
 
 func TestNewMappedByteBuffer(t *testing.T) {

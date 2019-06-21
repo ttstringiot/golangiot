@@ -6,7 +6,7 @@ package fileutil
 
 import (
 	"testing"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 )
 
 func TestListFilesOrDir(t *testing.T) {

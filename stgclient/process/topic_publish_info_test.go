@@ -3,7 +3,7 @@ package process
 import (
 	"testing"
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 )
 
 func TestTopicPublishInfo_ToString(t *testing.T) {

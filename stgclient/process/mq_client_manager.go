@@ -1,9 +1,9 @@
 package process
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgclient"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	syncMap "git.oschina.net/cloudzone/smartgo/stgcommon/sync"
+	"github.com/ttstringiot/golangiot/stgclient"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	syncMap "github.com/ttstringiot/golangiot/stgcommon/sync"
 	"sync"
 	"sync/atomic"
 )

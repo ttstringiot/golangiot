@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // DefalutRemotingClient default remoting client

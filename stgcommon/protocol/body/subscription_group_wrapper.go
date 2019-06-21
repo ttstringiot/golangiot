@@ -1,9 +1,9 @@
 package body
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sync"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon/sync"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // SubscriptionGroupWrapper 订阅组配置，序列化包装

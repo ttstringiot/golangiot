@@ -1,9 +1,9 @@
 package body
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/heartbeat"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sync"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/heartbeat"
+	"github.com/ttstringiot/golangiot/stgcommon/sync"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 	set "github.com/deckarep/golang-set"
 )
 

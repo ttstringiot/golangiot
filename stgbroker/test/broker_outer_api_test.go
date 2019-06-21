@@ -1,9 +1,9 @@
 package test
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgbroker"
-	"git.oschina.net/cloudzone/smartgo/stgbroker/out"
-	"git.oschina.net/cloudzone/smartgo/stgnet/remoting"
+	"github.com/ttstringiot/golangiot/stgbroker"
+	"github.com/ttstringiot/golangiot/stgbroker/out"
+	"github.com/ttstringiot/golangiot/stgnet/remoting"
 	"testing"
 )
 

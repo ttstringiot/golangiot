@@ -2,7 +2,7 @@ package rebalance
 
 import (
 	"testing"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 )
 
 func TestAllocateMessageQueueAveragely_Allocate(t *testing.T) {

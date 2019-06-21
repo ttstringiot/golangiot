@@ -1,9 +1,9 @@
 package stgstorelog
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"time"
-	stgsync "git.oschina.net/cloudzone/smartgo/stgcommon/sync"
+	stgsync "github.com/ttstringiot/golangiot/stgcommon/sync"
 	"sync"
 )
 

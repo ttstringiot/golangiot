@@ -1,8 +1,8 @@
 package registry
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
-	"git.oschina.net/cloudzone/smartgo/stgregistry/logger"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgregistry/logger"
 )
 
 // BrokerHousekeepingServices Broker活动检测服务

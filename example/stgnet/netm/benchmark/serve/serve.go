@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
 )
 
 func main() {

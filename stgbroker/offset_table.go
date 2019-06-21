@@ -1,7 +1,7 @@
 package stgbroker
 
 import (
-	syncmap "git.oschina.net/cloudzone/smartgo/stgcommon/sync"
+	syncmap "github.com/ttstringiot/golangiot/stgcommon/sync"
 	"sync"
 )
 

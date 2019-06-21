@@ -1,8 +1,8 @@
 package stgbroker
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	"github.com/ttstringiot/golangiot/stgstorelog"
 )
 
 // BrokerAllConfig Broker配置文件信息

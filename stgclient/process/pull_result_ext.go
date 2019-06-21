@@ -1,8 +1,8 @@
 package process
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgclient/consumer"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 )
 
 type PullResultExt struct {

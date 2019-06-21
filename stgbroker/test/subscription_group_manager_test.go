@@ -2,8 +2,8 @@ package test
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgbroker"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/subscription"
+	"github.com/ttstringiot/golangiot/stgbroker"
+	"github.com/ttstringiot/golangiot/stgcommon/subscription"
 	"testing"
 )
 

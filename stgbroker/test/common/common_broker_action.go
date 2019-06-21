@@ -2,14 +2,14 @@ package common
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgbroker"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
-	code "git.oschina.net/cloudzone/smartgo/stgcommon/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/timeutil"
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgbroker"
+	"github.com/ttstringiot/golangiot/stgcommon"
+	code "github.com/ttstringiot/golangiot/stgcommon/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/timeutil"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 )
 
 func CreateTopic(bc *stgbroker.BrokerController, ctx netm.Context, topicConfigOld *stgcommon.TopicConfig, newTopic string) (*protocol.RemotingCommand, error) {

@@ -1,7 +1,7 @@
 package stgstorelog
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/heartbeat"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/heartbeat"
 )
 
 const (

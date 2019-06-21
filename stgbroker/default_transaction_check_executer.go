@@ -1,8 +1,8 @@
 package stgbroker
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header"
 )
 
 // DefaultTransactionCheckExecuter 存储层回调此接口，用来主动回查Producer的事务状态

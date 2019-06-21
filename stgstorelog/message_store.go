@@ -1,8 +1,8 @@
 package stgstorelog
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/heartbeat"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/heartbeat"
 )
 
 // MessageStore 存储层对外提供的接口

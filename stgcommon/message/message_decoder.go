@@ -13,7 +13,7 @@ import (
 
 	"github.com/go-errors/errors"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/sysflag"
+	"github.com/ttstringiot/golangiot/stgcommon/sysflag"
 )
 
 // MessageDecoder: 消息解码

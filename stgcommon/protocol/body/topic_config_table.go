@@ -2,7 +2,7 @@ package body
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon"
 	"strings"
 	"sync"
 )

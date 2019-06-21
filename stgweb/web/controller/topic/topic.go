@@ -1,11 +1,11 @@
 package topic
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"git.oschina.net/cloudzone/cloudcommon-go/web/req"
 	"git.oschina.net/cloudzone/cloudcommon-go/web/resp"
-	"git.oschina.net/cloudzone/smartgo/stgweb/models"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules/topicService"
+	"github.com/ttstringiot/golangiot/stgweb/models"
+	"github.com/ttstringiot/golangiot/stgweb/modules/topicService"
 	"github.com/kataras/iris/context"
 	"strconv"
 	"strings"

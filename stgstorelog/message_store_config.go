@@ -1,7 +1,7 @@
 package stgstorelog
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgstorelog/config"
+	"github.com/ttstringiot/golangiot/stgstorelog/config"
 	"math"
 )
 

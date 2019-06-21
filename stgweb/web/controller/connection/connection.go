@@ -3,8 +3,8 @@ package connection
 import (
 	"git.oschina.net/cloudzone/cloudcommon-go/web/req"
 	"git.oschina.net/cloudzone/cloudcommon-go/web/resp"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules/connectionService"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgweb/modules/connectionService"
 	"github.com/kataras/iris/context"
 	"strings"
 )

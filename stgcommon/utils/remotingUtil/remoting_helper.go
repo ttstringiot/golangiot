@@ -1,8 +1,8 @@
 package remotingUtil
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
 	"strings"
 )
 

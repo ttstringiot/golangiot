@@ -1,7 +1,7 @@
 ## smartgo broker
 
 
-Read the [docs](http://git.oschina.net/cloudzone/smartgo)
+Read the [docs](http://github.com/ttstringiot/golangiot)
 
 ### 环境变量
 ```bash
@@ -10,7 +10,7 @@ export SMARTGO_HOME="/home/smartgo/" # registry日志配置文件
 
 ### 编译`broker`
 ```bash
-cd $GOPATH/src/git.oschina.net/cloudzone/smartgo/stgbroker/start
+cd $GOPATH/src/github.com/ttstringiot/golangiot/stgbroker/start
 go get ./...
 go build 
 mv start broker
@@ -20,7 +20,7 @@ mv start broker
 ```bash
 cd $SMARTGO_HOME
 mkdir -p $SMARTGO_HOME/conf
-cp $GOPATH/src/git.oschina.net/cloudzone/smartgo/conf/broker-a.toml $SMARTGO_HOME/conf/
+cp $GOPATH/src/github.com/ttstringiot/golangiot/conf/broker-a.toml $SMARTGO_HOME/conf/
 mkdir ./logs
 touch ./logs/broker.log  # 第一次启动确保./logs/registry.log文件存在
 nohup ./broker &
@@ -35,7 +35,7 @@ vim $SMARTGO_HOME/conf/smartgoBroker.toml
 
 cd $SMARTGO_HOME
 mkdir -p $SMARTGO_HOME/conf
-cp $GOPATH/src/git.oschina.net/cloudzone/smartgo/conf/broker-a.toml $SMARTGO_HOME/conf/
+cp $GOPATH/src/github.com/ttstringiot/golangiot/conf/broker-a.toml $SMARTGO_HOME/conf/
 mkdir ./logs
 touch ./logs/broker.log  # 第一次启动确保./logs/broker.log文件存在
 
@@ -97,12 +97,12 @@ smartgo/
 * 2.启动命令如果是`./broker -c xxx.toml`，则优先使用`-c`指令对应的toml文件
 * 3.如果`-c`之类对应的toml找不到，并且已配置`SMARTGO_HOME`环境变量，则尝试读取`$SMARTGO_HOME/conf/broker-a.toml`
 * 4.如果`$SMARTGO_HOME/conf/broker-a.toml`读取失败，则尝试读取`./conf/broker-a.toml`
-* 5.如果`./conf/broker-a.toml`读取失败，则读取`$GOPATH/src/git.oschina.net/cloudzone/smartgo/conf/broker-a.toml`
+* 5.如果`./conf/broker-a.toml`读取失败，则读取`$GOPATH/src/github.com/ttstringiot/golangiot/conf/broker-a.toml`
 * 6.如果以上步骤都无法读取toml文件，则启动broker报错
 
 ### 关于IDEA编辑器特殊启动问题
 * IDEA的 golang-sdk，在windows系统执行目录是`C:\\Users\\xxxxx\\AppData\\Local\\Temp`
-* 配置环境变量`SMARTGO_HOME="$GOPATH/src/git.oschina.net/cloudzone/smartgo/"`
+* 配置环境变量`SMARTGO_HOME="$GOPATH/src/github.com/ttstringiot/golangiot/"`
 * 通过IDEA编辑器启动broker后自动寻找`$SMARTGO_HOME/conf/broker-a.toml`配置文件
 
 ### broker数据目录、监听端口

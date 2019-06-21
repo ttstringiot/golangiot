@@ -1,7 +1,7 @@
 package header
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon"
 )
 
 // CreateTopicRequestHeader: 创建topic头信息

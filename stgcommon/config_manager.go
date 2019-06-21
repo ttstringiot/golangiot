@@ -3,7 +3,7 @@ package stgcommon
 import (
 	"io/ioutil"
 
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 )
 
 type IConfigManager interface {

@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgclient/process"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
 	"time"
+
+	"github.com/ttstringiot/golangiot/stgclient/process"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
 )
 
 func TaskOneWay() {
@@ -18,7 +19,7 @@ func TaskOneWay() {
 }
 func main() {
 	defaultMQProducer := process.NewDefaultMQProducer("producer")
-	defaultMQProducer.SetNamesrvAddr("10.112.68.189:9876")
+	defaultMQProducer.SetNamesrvAddr("127.0.0.1:9876")
 	defaultMQProducer.Start()
 	for i := 0; i < 640; i++ {
 		err := defaultMQProducer.SendOneWay(message.NewMessage("cloudzoneoneway", "tagA", []byte("send oneway msg 呵呵")))

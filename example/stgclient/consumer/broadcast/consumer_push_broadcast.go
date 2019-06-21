@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer"
-	"git.oschina.net/cloudzone/smartgo/stgclient/consumer/listener"
-	"git.oschina.net/cloudzone/smartgo/stgclient/process"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/heartbeat"
+	"github.com/ttstringiot/golangiot/stgclient/consumer"
+	"github.com/ttstringiot/golangiot/stgclient/consumer/listener"
+	"github.com/ttstringiot/golangiot/stgclient/process"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/heartbeat"
 	"time"
 )
 

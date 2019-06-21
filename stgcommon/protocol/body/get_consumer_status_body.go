@@ -1,8 +1,8 @@
 package body
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/message"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/message"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
 )
 
 // GetConsumerStatusBody  获得消费状态的body

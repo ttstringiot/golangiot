@@ -1,9 +1,9 @@
 package stgbroker
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils/timeutil"
-	"git.oschina.net/cloudzone/smartgo/stgnet/netm"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/utils/timeutil"
+	"github.com/ttstringiot/golangiot/stgnet/netm"
 	"time"
 )
 

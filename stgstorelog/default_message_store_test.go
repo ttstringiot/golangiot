@@ -5,11 +5,11 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
 	"math"
 	"strconv"
 	"io/ioutil"
-	"git.oschina.net/cloudzone/smartgo/stgstorelog/config"
+	"github.com/ttstringiot/golangiot/stgstorelog/config"
 )
 
 var (

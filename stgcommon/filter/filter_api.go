@@ -1,11 +1,11 @@
 package filter
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/heartbeat"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/heartbeat"
 	set "github.com/deckarep/golang-set"
 	"strings"
 	"errors"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+	"github.com/ttstringiot/golangiot/stgcommon"
 )
 // FilterAPI: filter api
 // Author: yintongqiang

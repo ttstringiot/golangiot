@@ -1,7 +1,7 @@
 package longpolling
 
 import (
-	"git.oschina.net/cloudzone/smartgo/stgcommon/utils"
+	"github.com/ttstringiot/golangiot/stgcommon/utils"
 	"sync"
 )
 

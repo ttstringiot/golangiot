@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/example/stgregistry/client"
-	util "git.oschina.net/cloudzone/smartgo/stgcommon/namesrv"
-	code "git.oschina.net/cloudzone/smartgo/stgcommon/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/protocol/header/namesrv"
-	"git.oschina.net/cloudzone/smartgo/stgnet/protocol"
-	"git.oschina.net/cloudzone/smartgo/stgnet/remoting"
-	"git.oschina.net/cloudzone/smartgo/stgregistry/logger"
+	"github.com/ttstringiot/golangiot/example/stgregistry/client"
+	util "github.com/ttstringiot/golangiot/stgcommon/namesrv"
+	code "github.com/ttstringiot/golangiot/stgcommon/protocol"
+	"github.com/ttstringiot/golangiot/stgcommon/protocol/header/namesrv"
+	"github.com/ttstringiot/golangiot/stgnet/protocol"
+	"github.com/ttstringiot/golangiot/stgnet/remoting"
+	"github.com/ttstringiot/golangiot/stgregistry/logger"
 	"strings"
 )
 

@@ -1,6 +1,6 @@
 package netm
 
-import "git.oschina.net/cloudzone/smartgo/stgcommon/logger"
+import "github.com/ttstringiot/golangiot/stgcommon/logger"
 
 // Debug logs a debug statement
 func (bootstrap *Bootstrap) Debug(v ...interface{}) {

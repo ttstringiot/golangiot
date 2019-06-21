@@ -2,8 +2,8 @@ package modules
 
 import (
 	"fmt"
-	"git.oschina.net/cloudzone/smartgo/stgclient/admin"
-	"git.oschina.net/cloudzone/smartgo/stgcommon"
+	"github.com/ttstringiot/golangiot/stgclient/admin"
+	"github.com/ttstringiot/golangiot/stgcommon"
 	"strings"
 	"sync"
 )

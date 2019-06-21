@@ -3,8 +3,8 @@ package group
 import (
 	"git.oschina.net/cloudzone/cloudcommon-go/web/req"
 	"git.oschina.net/cloudzone/cloudcommon-go/web/resp"
-	"git.oschina.net/cloudzone/smartgo/stgcommon/logger"
-	"git.oschina.net/cloudzone/smartgo/stgweb/modules/groupGervice"
+	"github.com/ttstringiot/golangiot/stgcommon/logger"
+	"github.com/ttstringiot/golangiot/stgweb/modules/groupGervice"
 	"github.com/kataras/iris/context"
 	"strings"
 )
