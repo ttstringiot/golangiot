@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"os"
+
 	"github.com/ttstringiot/golangiot/stgbroker"
 	"github.com/ttstringiot/golangiot/stgcommon"
 	"github.com/ttstringiot/golangiot/stgcommon/logger"
@@ -9,14 +11,13 @@ import (
 	"github.com/ttstringiot/golangiot/stgcommon/protocol/header"
 	"github.com/ttstringiot/golangiot/stgnet/netm"
 	"github.com/ttstringiot/golangiot/stgnet/protocol"
-	"os"
 )
 
 var (
 	request     *protocol.RemotingCommand
 	response    *protocol.RemotingCommand
 	err         error
-	newTopic    = "TopicExampleSSD"
+	newTopic    = "cloudzone123"
 	ctx         netm.Context
 	localPort   = 10925
 	localIp     = "127.0.0.1"

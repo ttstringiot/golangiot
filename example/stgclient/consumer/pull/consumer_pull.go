@@ -2,16 +2,17 @@ package main
 
 import (
 	"fmt"
-	"github.com/ttstringiot/golangiot/stgclient/process"
 	"time"
+
+	"github.com/ttstringiot/golangiot/stgclient/process"
 )
 
 func main() {
-	defaultMQPullConsumer := process.NewDefaultMQPullConsumer("myConsumerGroup")
-	defaultMQPullConsumer.SetNamesrvAddr("127.0.0.1:10911")
+	defaultMQPullConsumer := process.NewDefaultMQPullConsumer("producerGroupId-200")
+	defaultMQPullConsumer.SetNamesrvAddr("127.0.0.1:9876")
 	defaultMQPullConsumer.Start()
 
-	mqs := defaultMQPullConsumer.FetchSubscribeMessageQueues("TestTopic")
+	mqs := defaultMQPullConsumer.FetchSubscribeMessageQueues("cloudzone123")
 	for _, mq := range mqs {
 		pullResult, err := defaultMQPullConsumer.Pull(mq, "tagA", 0, 32)
 		if pullResult == nil || err != nil {

@@ -3,14 +3,15 @@ package main
 import (
 	"flag"
 	"fmt"
+	"sync/atomic"
+	"time"
+
 	"github.com/ttstringiot/golangiot/stgclient/consumer"
 	"github.com/ttstringiot/golangiot/stgclient/consumer/listener"
 	"github.com/ttstringiot/golangiot/stgclient/process"
 	"github.com/ttstringiot/golangiot/stgcommon/message"
 	"github.com/ttstringiot/golangiot/stgcommon/protocol/heartbeat"
 	"github.com/ttstringiot/golangiot/stgcommon/sync"
-	"sync/atomic"
-	"time"
 )
 
 type MessageListenerImpl struct {
@@ -48,7 +49,7 @@ func taskC() {
 var (
 	def_consumerGroupId = "consumerGroupId-200"
 	def_topic           = "cloudzone123"
-	def_namesrvAddr     = "10.112.68.189:9876"
+	def_namesrvAddr     = "127.0.0.1:9876"
 	def_tag             = "tagA"
 )
 

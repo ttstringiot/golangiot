@@ -14,7 +14,7 @@ var (
 	def_producerGroupId = "producerGroupId-200"
 	def_topic           = "cloudzone123"
 	def_tag             = "tagA"
-	def_namesrvAddr     = "127.0.0.1:9876"
+	def_namesrvAddr     = "127.0.0.1:10911"
 	def_bodyDataSize    = 0
 	def_threadNum       = 10
 )
